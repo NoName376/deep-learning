@@ -5,6 +5,8 @@ __pycache__/
 
 
 SIS1/data
+week6/hymenoptera_data
+week6/hymenoptera_data.zip
 
 # C extensions
 *.so
