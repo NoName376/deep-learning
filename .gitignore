@@ -3,7 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-
+week9/__MACOSX
+week9/images
 SIS1/data
 week6/hymenoptera_data
 week6/hymenoptera_data.zip

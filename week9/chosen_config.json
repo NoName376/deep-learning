@@ -1,0 +1,8 @@
+{
+  "chosen": "fix_b",
+  "operations": "1) ImageFilter.MaxFilter(21) -> background; 2) ImageChops.subtract(img, background, scale=1.0, offset=255); 3) ImageOps.autocontrast(cutoff=1)",
+  "ocr": "tesseract --oem 1 --psm 7, lang eng",
+  "normalization": "uppercase, remove whitespace",
+  "reason": "fix_b has the lowest validation corpus CER: 0.181 (34/188 edits, 18/24 exact) vs fix_a 0.441 and baseline 0.452.",
+  "frozen_at": "2026-11-06T20:55:56"
+}
